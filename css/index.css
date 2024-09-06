@@ -16,6 +16,7 @@ article {
     
 }
 
+
 article ul{
     text-decoration-line: underline;
 }
@@ -83,6 +84,12 @@ img{
 
 .foot a{
     color: #f5f5f5;
+}
+
+.foot img{
+    width: 50px;
+    padding: 15px;
+    
 }
 
   /* End Footer */
