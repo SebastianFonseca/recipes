@@ -1,3 +1,22 @@
+*{
+    /* border: black;
+    border-style: solid; */
+}
+
+.receta{
+    display: flex;
+}
+
+.divmenu{
+    height: 10%;
+
+}
+
+.divrecetas{
+    height: 90%;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -13,7 +32,7 @@ article {
     padding: 15px;
     border-radius: 5px;
     margin-top: 50px;
-    
+    scroll-margin-top: 90px
 }
 
 
@@ -26,6 +45,7 @@ article ul{
     text-align: center;
     margin: 0;
     margin-bottom: -30px;
+    margin-top: 7%;
 }
 
 h2 {
@@ -49,6 +69,9 @@ img{
     left: 0;
     width: 100%;
     margin-bottom: 10px;
+    position: fixed;
+    
+    height: 10%;
 
 }
 
@@ -95,6 +118,29 @@ img{
   /* End Footer */
 
 
-
-
+  /* 
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 400 
+  */
   
+  .playwrite-cu-fontgoogle{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+
+  h1{
+    font-family: 'Playwrite CU';
+    font-size: 50px;
+    font-weight: 800;
+  }
+  
+
+  .descriptionheader{
+    font-family: 'Playwrite CU';
+    font-size: 20px;
+    font-weight: 10;
+
+  }

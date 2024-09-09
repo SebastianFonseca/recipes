@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Recipes</title>
     <link rel="stylesheet" href="./css/index.css"> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+    </style>
+
 </head>
 
 <body>
 
-
-    <section>
-
+    <div class="divmenu">
         <nav class="menu">
             <ul>
               <li><a href="#Carbonara">Spaghetti Carbonara</a></li><!--
@@ -21,175 +23,192 @@
               --><li><a href="#Salad">Greek Salad</a></li><!--
               --><li><a href="#Cookies">Chocolate Chip Cookies</a></li>
             </ul>
-        </nav>
+        </nav>   
+    </div>
+
+    <div class="divrecetas">
+        <section>
 
 
-        <article class="destacado">
-            <h1 > My Favorite Cuisine Recipes</h1>
-            <p>Explore a collection of my favorite recipes from different cuisines around the world!</p>
-        </article>
 
-        <article id="Carbonara">
-            <h2>Spaghetti Carbonara</h2>
-            <img src="./images/Espaguetis_carbonara.jpg" alt="Plato de pasta">
-            <p>This classic Italian dish is simple yet delicious, combining pasta with pancetta, eggs, and Parmesan cheese.</p>
-            <h3>Ingredients:</h3>
-            <ul>
-                <li>200g spaghetti</li>
-                <li>100g pancetta</li>
-                <li>2 large eggs</li>
-                <li>50g grated Parmesan</li>
-                <li>Salt and pepper to taste</li>
-            </ul>
-            <h3>Instructions:</h3>
-            <ol>
-                <li>Boil the spaghetti in salted water until al dente.</li>
-                <li>Fry the pancetta until crisp.</li>
-                <li>Whisk the eggs with Parmesan cheese.</li>
-                <li>Mix the spaghetti with the pancetta and remove from heat. Add the egg mixture and stir quickly to create a creamy sauce.</li>
-                <li>Season with salt and pepper and serve immediately.</li>
-            </ol>
-        </article>
 
-        <article id="Guacamole">
-            <h2>Guacamole</h2>
-            <img src="./images/Guacamole.jpg" alt="Plato de guacamole verde">
-            <p>A traditional Mexican dip made with mashed avocado, lime juice, and various seasonings.</p>
-            <h3>Ingredients:</h3>
-            <ul>
-                <li>2 ripe avocados</li>
-                <li>1 lime, juiced</li>
-                <li>1 small onion, finely chopped</li>
-                <li>1 tomato, chopped</li>
-                <li>Salt and pepper to taste</li>
-                <li>Chopped cilantro (optional)</li>
-            </ul>
-            <h3>Instructions:</h3>
-            <ol>
-                <li>Cut the avocados in half and remove the pit.</li>
-                <li>Scoop out the flesh and mash it in a bowl.</li>
-                <li>Add the lime juice, onion, tomato, and cilantro.</li>
-                <li>Mix well and season with salt and pepper.</li>
-                <li>Serve with tortilla chips or as a side for your favorite dish.</li>
-            </ol>
-        </article>
+            <article class="destacado">
+                <h1 > My Favorite Cuisine Recipes</h1>
+                <p class="descriptionheader">Explore a collection of my favorite recipes from different cuisines around the world!</p>
+            </article>
 
-        <article id="Chicken">
-            <h2>Chicken Curry</h2>
-            <img src="./images/chicken-curry-new_sw_recipe.webp" alt="Plato de guacamole verde">
-            <p>A flavorful Indian curry made with tender chicken, spices, and a creamy sauce.</p>
-            <h3>Ingredients:</h3>
-            <ul>
-                <li>500g chicken breast, cut into chunks</li>
-                <li>1 onion, finely chopped</li>
-                <li>2 cloves garlic, minced</li>
-                <li>1 tablespoon curry powder</li>
-                <li>1 teaspoon ground cumin</li>
-                <li>1 teaspoon ground coriander</li>
-                <li>1 can coconut milk</li>
-                <li>2 tablespoons vegetable oil</li>
-                <li>Salt and pepper to taste</li>
-                <li>Fresh cilantro for garnish (optional)</li>
-            </ul>
-            <h3>Instructions:</h3>
-            <ol>
-                <li>Heat the oil in a large pan and cook the onion until soft.</li>
-                <li>Add the garlic and cook for another minute.</li>
-                <li>Stir in the curry powder, cumin, and coriander, and cook for a minute until fragrant.</li>
-                <li>Add the chicken and cook until browned on all sides.</li>
-                <li>Pour in the coconut milk and bring to a simmer. Cook for 15-20 minutes, until the chicken is cooked through.</li>
-                <li>Season with salt and pepper, and garnish with cilantro before serving.</li>
-            </ol>
-        </article>
-        
-        <article id="Toast"> 
-            <h2>French Toast</h2>
-            <img src="./images/French-Toast-story.jpg" alt="Plato de guacamole verde">
-            <p>A simple breakfast recipe made by dipping bread in a mixture of eggs and milk, then frying until golden.</p>
-            <h3>Ingredients:</h3>
-            <ul>
-                <li>4 slices of bread</li>
-                <li>2 eggs</li>
-                <li>1/2 cup milk</li>
-                <li>1 teaspoon vanilla extract</li>
-                <li>1/2 teaspoon ground cinnamon</li>
-                <li>2 tablespoons butter</li>
-                <li>Syrup, powdered sugar, or fruit for topping (optional)</li>
-            </ul>
-            <h3>Instructions:</h3>
-            <ol>
-                <li>In a shallow bowl, whisk together the eggs, milk, vanilla, and cinnamon.</li>
-                <li>Dip each slice of bread into the egg mixture, making sure both sides are well coated.</li>
-                <li>Melt the butter in a large pan over medium heat.</li>
-                <li>Fry the bread slices in the pan until golden brown on both sides, about 2-3 minutes per side.</li>
-                <li>Serve with syrup, powdered sugar, or fruit as desired.</li>
-            </ol>
-        </article>
-        
-        <article id="Salad">
-            <h2>Greek Salad</h2>
-            <img src="./images/greek-salad-picture.jpg" alt="Plato de guacamole verde">
-            <p>A refreshing and healthy salad made with tomatoes, cucumber, olives, and feta cheese.</p>
-            <h3>Ingredients:</h3>
-            <ul>
-                <li>3 tomatoes, chopped</li>
-                <li>1 cucumber, sliced</li>
-                <li>1/2 red onion, thinly sliced</li>
-                <li>100g feta cheese, crumbled</li>
-                <li>1/4 cup Kalamata olives</li>
-                <li>2 tablespoons olive oil</li>
-                <li>1 tablespoon red wine vinegar</li>
-                <li>Salt and pepper to taste</li>
-                <li>Oregano for garnish</li>
-            </ul>
-            <h3>Instructions:</h3>
-            <ol>
-                <li>In a large bowl, combine the tomatoes, cucumber, red onion, and olives.</li>
-                <li>Drizzle with olive oil and red wine vinegar.</li>
-                <li>Season with salt, pepper, and a pinch of oregano.</li>
-                <li>Toss gently to combine, then top with crumbled feta cheese.</li>
-                <li>Serve immediately or chill for 30 minutes for a colder salad.</li>
-            </ol>
-        </article>
-        
-        <article id="Cookies">
-            <h2>Chocolate Chip Cookies</h2>
-            <img src="./images/cookies.jpg" alt="Plato de guacamole verde">
-            <p>Classic chewy cookies loaded with chocolate chips, perfect for any occasion.</p>
-            <h3>Ingredients:</h3>
-            <ul>
-                <li>1 cup unsalted butter, softened</li>
-                <li>1 cup white sugar</li>
-                <li>1 cup brown sugar</li>
-                <li>2 eggs</li>
-                <li>2 teaspoons vanilla extract</li>
-                <li>3 cups all-purpose flour</li>
-                <li>1 teaspoon baking soda</li>
-                <li>1/2 teaspoon salt</li>
-                <li>2 cups chocolate chips</li>
-            </ul>
-            <h3>Instructions:</h3>
-            <ol>
-                <li>Preheat the oven to 350°F (175°C).</li>
-                <li>Cream together the butter, white sugar, and brown sugar until smooth.</li>
-                <li>Beat in the eggs one at a time, then stir in the vanilla extract.</li>
-                <li>In a separate bowl, whisk together the flour, baking soda, and salt.</li>
-                <li>Gradually add the dry ingredients to the wet ingredients, mixing until combined.</li>
-                <li>Stir in the chocolate chips.</li>
-                <li>Drop spoonfuls of dough onto a baking sheet and bake for 10-12 minutes, until golden brown.</li>
-            </ol>
-        </article>
-        
+            <article id="Carbonara"  class="receta">
 
-        <article class="foot">
-            <h3>Why did I do it?</h3>
-            <h3>Because of them:<br><br>
-                <a href="https://www.theodinproject.com/lessons/foundations-recipes" Target="_blank" rel="noopener noreferrer">
-                    <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo" >
-                </a>
-            </h3>
-        </article>
+                <div> 
+                    <h2>Spaghetti Carbonara</h2>
+                    <p>This classic Italian dish is simple yet delicious, combining pasta with pancetta, eggs, and Parmesan cheese.</p>
+                    <h3>Ingredients:</h3>
+                    <ul>
+                        <li>200g spaghetti</li>
+                        <li>100g pancetta</li>
+                        <li>2 large eggs</li>
+                        <li>50g grated Parmesan</li>
+                        <li>Salt and pepper to taste</li>
+                    </ul>
+                    <h3>Instructions:</h3>
+                    <ol>
+                        <li>Boil the spaghetti in salted water until al dente.</li>
+                        <li>Fry the pancetta until crisp.</li>
+                        <li>Whisk the eggs with Parmesan cheese.</li>
+                        <li>Mix the spaghetti with the pancetta and remove from heat. Add the egg mixture and stir quickly to create a creamy sauce.</li>
+                        <li>Season with salt and pepper and serve immediately.</li>
+                    </ol>
+                </div>
 
-    </section>
+                <div>   
+                            <img src="./images/Espaguetis_carbonara.jpg" alt="Plato de pasta">
+                </div>
+            
+            </article>
+
+            <article id="Guacamole">
+                <h2>Guacamole</h2>
+                <img src="./images/Guacamole.jpg" alt="Plato de guacamole verde">
+                <p>A traditional Mexican dip made with mashed avocado, lime juice, and various seasonings.</p>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>2 ripe avocados</li>
+                    <li>1 lime, juiced</li>
+                    <li>1 small onion, finely chopped</li>
+                    <li>1 tomato, chopped</li>
+                    <li>Salt and pepper to taste</li>
+                    <li>Chopped cilantro (optional)</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Cut the avocados in half and remove the pit.</li>
+                    <li>Scoop out the flesh and mash it in a bowl.</li>
+                    <li>Add the lime juice, onion, tomato, and cilantro.</li>
+                    <li>Mix well and season with salt and pepper.</li>
+                    <li>Serve with tortilla chips or as a side for your favorite dish.</li>
+                </ol>
+            </article>
+
+            <article id="Chicken">
+                <h2>Chicken Curry</h2>
+                <img src="./images/chicken-curry-new_sw_recipe.webp" alt="Plato de guacamole verde">
+                <p>A flavorful Indian curry made with tender chicken, spices, and a creamy sauce.</p>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>500g chicken breast, cut into chunks</li>
+                    <li>1 onion, finely chopped</li>
+                    <li>2 cloves garlic, minced</li>
+                    <li>1 tablespoon curry powder</li>
+                    <li>1 teaspoon ground cumin</li>
+                    <li>1 teaspoon ground coriander</li>
+                    <li>1 can coconut milk</li>
+                    <li>2 tablespoons vegetable oil</li>
+                    <li>Salt and pepper to taste</li>
+                    <li>Fresh cilantro for garnish (optional)</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Heat the oil in a large pan and cook the onion until soft.</li>
+                    <li>Add the garlic and cook for another minute.</li>
+                    <li>Stir in the curry powder, cumin, and coriander, and cook for a minute until fragrant.</li>
+                    <li>Add the chicken and cook until browned on all sides.</li>
+                    <li>Pour in the coconut milk and bring to a simmer. Cook for 15-20 minutes, until the chicken is cooked through.</li>
+                    <li>Season with salt and pepper, and garnish with cilantro before serving.</li>
+                </ol>
+            </article>
+            
+            <article id="Toast"> 
+                <h2>French Toast</h2>
+                <img src="./images/French-Toast-story.jpg" alt="Plato de guacamole verde">
+                <p>A simple breakfast recipe made by dipping bread in a mixture of eggs and milk, then frying until golden.</p>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>4 slices of bread</li>
+                    <li>2 eggs</li>
+                    <li>1/2 cup milk</li>
+                    <li>1 teaspoon vanilla extract</li>
+                    <li>1/2 teaspoon ground cinnamon</li>
+                    <li>2 tablespoons butter</li>
+                    <li>Syrup, powdered sugar, or fruit for topping (optional)</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>In a shallow bowl, whisk together the eggs, milk, vanilla, and cinnamon.</li>
+                    <li>Dip each slice of bread into the egg mixture, making sure both sides are well coated.</li>
+                    <li>Melt the butter in a large pan over medium heat.</li>
+                    <li>Fry the bread slices in the pan until golden brown on both sides, about 2-3 minutes per side.</li>
+                    <li>Serve with syrup, powdered sugar, or fruit as desired.</li>
+                </ol>
+            </article>
+            
+            <article id="Salad">
+                <h2>Greek Salad</h2>
+                <img src="./images/greek-salad-picture.jpg" alt="Plato de guacamole verde">
+                <p>A refreshing and healthy salad made with tomatoes, cucumber, olives, and feta cheese.</p>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>3 tomatoes, chopped</li>
+                    <li>1 cucumber, sliced</li>
+                    <li>1/2 red onion, thinly sliced</li>
+                    <li>100g feta cheese, crumbled</li>
+                    <li>1/4 cup Kalamata olives</li>
+                    <li>2 tablespoons olive oil</li>
+                    <li>1 tablespoon red wine vinegar</li>
+                    <li>Salt and pepper to taste</li>
+                    <li>Oregano for garnish</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>In a large bowl, combine the tomatoes, cucumber, red onion, and olives.</li>
+                    <li>Drizzle with olive oil and red wine vinegar.</li>
+                    <li>Season with salt, pepper, and a pinch of oregano.</li>
+                    <li>Toss gently to combine, then top with crumbled feta cheese.</li>
+                    <li>Serve immediately or chill for 30 minutes for a colder salad.</li>
+                </ol>
+            </article>
+            
+            <article id="Cookies">
+                <h2>Chocolate Chip Cookies</h2>
+                <img src="./images/cookies.jpg" alt="Plato de guacamole verde">
+                <p>Classic chewy cookies loaded with chocolate chips, perfect for any occasion.</p>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1 cup unsalted butter, softened</li>
+                    <li>1 cup white sugar</li>
+                    <li>1 cup brown sugar</li>
+                    <li>2 eggs</li>
+                    <li>2 teaspoons vanilla extract</li>
+                    <li>3 cups all-purpose flour</li>
+                    <li>1 teaspoon baking soda</li>
+                    <li>1/2 teaspoon salt</li>
+                    <li>2 cups chocolate chips</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Preheat the oven to 350°F (175°C).</li>
+                    <li>Cream together the butter, white sugar, and brown sugar until smooth.</li>
+                    <li>Beat in the eggs one at a time, then stir in the vanilla extract.</li>
+                    <li>In a separate bowl, whisk together the flour, baking soda, and salt.</li>
+                    <li>Gradually add the dry ingredients to the wet ingredients, mixing until combined.</li>
+                    <li>Stir in the chocolate chips.</li>
+                    <li>Drop spoonfuls of dough onto a baking sheet and bake for 10-12 minutes, until golden brown.</li>
+                </ol>
+            </article>
+            
+
+            <article class="foot">
+                <h3>Why did I do it?</h3>
+                <h3>Because of them:<br><br>
+                    <a href="https://www.theodinproject.com/lessons/foundations-recipes" Target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo" >
+                    </a>
+                </h3>
+            </article>
+
+        </section>
+    </div>
+
+
+
 </body>
 </html>
